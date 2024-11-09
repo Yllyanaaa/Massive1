@@ -1,0 +1,22 @@
+/* src/components/Navbar.css */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #4a90e2;
+  padding: 10px 20px;
+  color: white;
+}
+
+.nav-links {
+  display: flex;
+  list-style-type: none;
+}
+
+.nav-links li {
+  margin: 0 15px;
+}
+
+.user-icons i {
+  margin: 0 5px;
+}

@@ -1,0 +1,82 @@
+/* src/components/Dokumentasi.css */
+
+.dokumentasi-container {
+  padding: 20px;
+  text-align: center;
+  font-family: Arial, sans-serif;
+}
+
+.dokumentasi-container h2 {
+  font-size: 24px;
+  color: #4A6CF7;
+  margin-bottom: 20px;
+}
+
+.dokumentasi-table-container {
+  display: flex;
+  justify-content: center;
+}
+
+.dokumentasi-table {
+  width: 80%;
+  border-collapse: collapse;
+  border-radius: 10px;
+  overflow: hidden;
+  background-color: #F7F9FC;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.dokumentasi-table th,
+.dokumentasi-table td {
+  padding: 15px;
+  text-align: center;
+  border: 1px solid #E0E6ED;
+}
+
+.dokumentasi-table th {
+  background-color: #4A6CF7;
+  color: #FFFFFF;
+  font-weight: bold;
+}
+
+.dokumentasi-table td {
+  color: #333333;
+}
+
+.dokumentasi-image {
+  width: 50px;
+  height: 50px;
+  border-radius: 5px;
+}
+
+.edit-button, .delete-button {
+  background: none;
+  border: none;
+  cursor: pointer;
+  font-size: 18px;
+}
+
+.edit-button {
+  color: #4A6CF7;
+  margin-right: 10px;
+}
+
+.delete-button {
+  color: #FF5A5F;
+}
+
+.add-button {
+  margin-top: 20px;
+  padding: 10px 20px;
+  font-size: 24px;
+  color: #FFFFFF;
+  background-color: #4A6CF7;
+  border: none;
+  border-radius: 50%;
+  cursor: pointer;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.add-button:hover {
+  background-color: #3B57C2;
+}

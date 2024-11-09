@@ -1,0 +1,88 @@
+/* src/components/Dashboard.css */
+
+.dashboard-container {
+  font-family: Arial, sans-serif;
+  background-color: #f5f5f5;
+  padding: 20px;
+}
+
+/* Navbar */
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #4A6CF7;
+  padding: 10px 20px;
+  color: white;
+}
+
+.navbar .logo-navbar {
+  height: 30px;
+}
+
+.navbar a {
+  color: white;
+  text-decoration: none;
+  margin: 0 10px;
+}
+
+.navbar a:hover {
+  text-decoration: underline;
+}
+
+/* Summary Cards */
+.summary-cards {
+  display: flex;
+  justify-content: space-around;
+  margin: 20px 0;
+}
+
+.card {
+  background-color: #4A6CF7;
+  color: white;
+  padding: 20px;
+  border-radius: 8px;
+  width: 22%;
+  text-align: center;
+}
+
+.card h3 {
+  margin-bottom: 10px;
+}
+
+/* Image Section */
+.image-section {
+  display: flex;
+  justify-content: space-around;
+  margin: 20px 0;
+}
+
+.image-section img {
+  width: 45%;
+  border-radius: 8px;
+}
+
+/* Activity Section */
+.activity-section {
+  display: flex;
+  justify-content: space-around;
+  margin: 20px 0;
+}
+
+.activity-card {
+  background-color: #e0e0e0;
+  padding: 20px;
+  border-radius: 8px;
+  width: 45%;
+}
+
+.activity-card h4 {
+  color: #4A6CF7;
+}
+
+/* Footer */
+footer {
+  text-align: center;
+  margin-top: 20px;
+  color: #999;
+}

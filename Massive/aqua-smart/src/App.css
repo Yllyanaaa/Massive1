@@ -1,0 +1,16 @@
+/* src/App.css */
+.app {
+  text-align: center;
+}
+
+.stats-section {
+  display: flex;
+  justify-content: space-around;
+  padding: 20px;
+}
+
+.activity-section {
+  display: flex;
+  justify-content: space-around;
+  padding: 20px;
+}
